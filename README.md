@@ -3,3 +3,17 @@ berisi kode untuk mengoperasikan OLED untuk menunjukkan baterai pada robot, mode
 
 # Penggunaan
 ![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222620.png)
+
+![[Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222702.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
+
+![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
