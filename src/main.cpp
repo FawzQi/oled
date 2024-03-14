@@ -2,7 +2,7 @@
 
 #include "display.h"
 
-OLED displayRobot("Battery : xx%\n\n", "Just Started\n\n", "Now Playing :\n Nothing\n");
+OLED displayRobot("xx%\n\n", "Just Started\n\n", "Nothing\n");
 
 EasyButton black(BLACK_BUTTON_PIN, 50, false, true);
 EasyButton grey(GREY_BUTTON_PIN, 50, false, true);
@@ -27,8 +27,6 @@ void setup() {
     red.begin();
     red.onPressed(Button_Trig_Callback);
     // red.onPressedFor(1000, Button_Trig_Hold_Callback);
-
-    // test git
 }
 
 void loop() {

@@ -101,7 +101,7 @@ void Button_Mode_B_3_Sequence_Callback() {
 void Button_Trig_Callback() {
     // DEBUG_PRINTF("[Button] Trigger\n");
     // esp_now_send(mac_addresses[mac_index], data_button, 2);
-    displayRobot.setModeplayedStr("Now Playing :\n" + displayRobot.getCurrmodeStr());
+    displayRobot.setModeplayedStr(displayRobot.getCurrmodeStr());
 }
 
 void Button_Trig_Hold_Callback() {
