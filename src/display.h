@@ -1,5 +1,5 @@
-#ifndef DISPLAY_H
-#define DISPLAY_H
+#ifndef _display_h
+#define _display_h
 
 #include <Adafruit_SSD1306.h>
 #include <Arduino.h>
