@@ -1,13 +1,12 @@
 #ifndef DISPLAY_H
 #define DISPLAY_H
 
-#include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Arduino.h>
 #include <EasyButton.h>
 
 #define SCREEN_WIDTH 128  // OLED width,  in pixels
-#define SCREEN_HEIGHT 64
+#define SCREEN_HEIGHT 64  // OLED height, in pixels
 
 /* Push Button */
 #define BLACK_BUTTON_PIN 19
@@ -30,7 +29,7 @@ class OLED {
     void setModeplayedStr(String s);  // Sets the mode played
 };
 
-void setupOled();        // Initializes the OLED display
+void setupDisplay();     // Initializes the OLED display
 void display(String s);  // Displays the string on the OLED
 
 /* Callbacks for the push buttons */

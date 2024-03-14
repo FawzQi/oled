@@ -4,7 +4,6 @@ Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 String OLED::show() {
     return "Battery : " + OLED::battery + "Choosen mode:\n" + OLED::currMode + "Now Playing :\n" + OLED::modePlayed;
-    ;
 }
 
 String OLED::getCurrmodeStr() {
@@ -23,7 +22,7 @@ void OLED::setModeplayedStr(String s) {
     OLED::modePlayed = s;
 }
 
-void setupOled() {
+void setupDisplay() {
     Serial.begin(9600);
 
     if (!oled.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
