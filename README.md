@@ -8,7 +8,7 @@ Inisiasi class untuk tampilan OLED dengan 3 parameter
 - Parameter 1 untuk persentase baterai
 - Parameter 2 untuk mode yang dipilih
 - parameter 3 untuk mode yang sedang diputar
-
+_______________________________________________________
 
 ![[Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222937.png)
 
