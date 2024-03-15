@@ -49,3 +49,7 @@ Setup untuk OLED
 Fungsi untuk menampilkan string pada layar OLED
 
 ---
+
+# Notes
+
+Program ini masih dalam tahap development jadi masih ada beberapa kode tambahan untuk pengetesan pada pcb nantinya
