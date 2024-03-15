@@ -4,6 +4,9 @@ berisi kode untuk mengoperasikan OLED untuk menunjukkan baterai pada robot, mode
 
 # Penggunaan
 
+![Deskripsi Gambar]([https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png](https://github.com/FawzQi/oled/blob/main/img/class%20img.png))
+Library yang dibutuhkan untuk profram ini
+
 ![Deskripsi Gambar](https://github.com/FawzQi/oled/blob/main/img/Screenshot%202024-03-14%20222600.png)
 
 Inisiasi class untuk tampilan OLED dengan 3 parameter
