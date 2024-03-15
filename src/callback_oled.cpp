@@ -52,50 +52,50 @@ void Button_Mode_A_Callback() {
     // DEBUG_PRINTF("[Button] Mode A\n");
     // data_button[0] = POST_MOTION_PLAY;
     // data_button[1] = 0;
-    displayRobot.setCurmodeStr("MODE_A\n\n");
+    displayRobot.setCurmodeStr("MODE_A");
 }
 
 void Button_Mode_A_Hold_Callback() {
     // DEBUG_PRINTF("[Button] Mode A Hold 1s\n");
     // data_button[0] = POST_SERVO_ACTIVE_TORQUE;
-    displayRobot.setCurmodeStr("MODE_A_HOLD_1S\n\n");
+    displayRobot.setCurmodeStr("MODE_A_HOLD_1S");
 }
 
 void Button_Mode_A_2_Sequence_Callback() {
     // DEBUG_PRINTF("[Button] Mode A Sequence\n");
     // data_button[0] = POST_MOTION_PLAY;
     // data_button[1] = 1;
-    displayRobot.setCurmodeStr("MODE_A_2_SEQUENCE\n\n");
+    displayRobot.setCurmodeStr("MODE_A_2_SEQUENCE");
 }
 
 void Button_Mode_A_3_Sequence_Callback() {
     // DEBUG_PRINTF("[Button] Mode A Sequence\n");
-    displayRobot.setCurmodeStr("MODE_A_3_SEQUENCE\n\n");
+    displayRobot.setCurmodeStr("MODE_A_3_SEQUENCE");
 }
 
 void Button_Mode_B_Callback() {
     // DEBUG_PRINTF("[Button] Mode B\n");
     // data_button[0] = POST_MOTION_PLAY;
     // data_button[1] = esp_info.index;
-    displayRobot.setCurmodeStr("MODE_B\n\n");
+    displayRobot.setCurmodeStr("MODE_B");
 }
 
 void Button_Mode_B_Hold_Callback() {
     // DEBUG_PRINTF("[Button] Mode B Hold 1s\n");
     // data_button[0] = POST_SERVO_ACTIVE_TORQUE;
-    displayRobot.setCurmodeStr("MODE_B_HOLD_1S\n\n");
+    displayRobot.setCurmodeStr("MODE_B_HOLD_1S");
 }
 
 void Button_Mode_B_2_Sequence_Callback() {
     // DEBUG_PRINTF("[Button] Mode B Sequence\n");
     // data_button[0] = POST_MOTION_PAUSE;
-    displayRobot.setCurmodeStr("MODE_B_2_SEQUENCE\n\n");
+    displayRobot.setCurmodeStr("MODE_B_2_SEQUENCE");
 }
 
 void Button_Mode_B_3_Sequence_Callback() {
     // DEBUG_PRINTF("[Button] Mode B Sequence\n");
     // data_button[0] = POST_MOTION_RESUME;
-    displayRobot.setCurmodeStr("MODE_B_3_SEQUENCE\n\n");
+    displayRobot.setCurmodeStr("MODE_B_3_SEQUENCE");
 }
 
 void Button_Trig_Callback() {

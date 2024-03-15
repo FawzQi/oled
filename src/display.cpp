@@ -3,7 +3,7 @@
 Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 String OLED::show() {
-    return "Battery : " + OLED::battery + "Choosen mode:\n" + OLED::currMode + "Now Playing :\n" + OLED::modePlayed;
+    return "Battery : " + OLED::battery + "%\n\nChoosen mode:\n" + OLED::currMode + "\n\nNow Playing :\n" + OLED::modePlayed + "\n\n";
 }
 
 String OLED::getCurrmodeStr() {

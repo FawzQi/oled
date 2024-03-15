@@ -3,7 +3,7 @@
 
 #include <Adafruit_SSD1306.h>
 #include <Arduino.h>
-#include <EasyButton.h>
+#include <EasyButton.h>  //Untuk testing
 
 #define SCREEN_WIDTH 128  // OLED width,  in pixels
 #define SCREEN_HEIGHT 64  // OLED height, in pixels

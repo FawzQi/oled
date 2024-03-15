@@ -2,7 +2,7 @@
 
 #include "display.h"
 
-OLED displayRobot("xx%\n\n", "Just Started\n\n", "Nothing\n");
+OLED displayRobot("xx", "Just Started", "Nothing Yet");
 
 EasyButton black(BLACK_BUTTON_PIN, 50, false, true);
 EasyButton grey(GREY_BUTTON_PIN, 50, false, true);
